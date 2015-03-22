@@ -1,8 +1,9 @@
-# Load
+# Loading the  RDS into Exploratory data in /Users/yogeshsharma/Documents/Data_Scientist/Exploratory_Data_Analysis/Project_2
+# and open the terminal in Project 2
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
-# Samples data for testing
+# Samples data for testing and sample Data:
 NEIsample <- NEI[sample(nrow(NEI), size = 5000, replace = F), ]
 
 # Subsets data and appends two years in one data frame
