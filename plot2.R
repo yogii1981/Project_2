@@ -1,5 +1,5 @@
 # Loading the  RDS into Exploratory data in /Users/yogeshsharma/Documents/Data_Scientist/Exploratory_Data_Analysis/Project_2
-# and open the terminal in Project 2
+# and open the terminal in Project_2
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
